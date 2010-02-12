@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+     <TableRow>
+	    <TextView   
+		android:id="@+id/title"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/hello"  />
+     </TableRow>
+     <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+     
+  	 <TableRow>
+           <Button
+	        android:id="@+id/alertdlg_simple"
+	        android:padding="5dip" 
+	        android:text=" Alert dlg Simple " />
+	       <Button
+	        android:id="@+id/alertdlg_list"
+	        android:padding="5dip" 
+	        android:text=" Alert dlg List " />
+	       <Button
+	        android:id="@+id/alertdlg_list_Radio"
+	        android:padding="5dip" 
+	        android:text=" List Radio " />
+        </TableRow>
+      
+        <TableRow>
+	        <Button
+	        android:id="@+id/alertdlg_list_Check"
+	        android:padding="5dip" 
+	        android:text=" List Check " />
+	        
+	         <Button
+	        android:id="@+id/progressdlg_ring"
+	        android:padding="5dip" 
+	        android:text=" Progress Round " />
+	           
+		   <Button
+	        android:id="@+id/progressdlg_bar"
+	        android:padding="5dip" 
+	        android:text=" Progress Bar " />
+        </TableRow>
+        <TableRow>
+	        <Button
+	        android:id="@+id/customdlg_xml"
+	        android:padding="5dip" 
+	        android:text=" Custom dlg xml " />
+	            
+	     </TableRow>
+	        
+        <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+        <TableRow>
+       		<Button
+	        android:id="@+id/popup"
+	        android:padding="5dip" 
+	        android:text="Pop up" />
+	    </TableRow>
+ 	</TableLayout> 
